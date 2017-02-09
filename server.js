@@ -23,8 +23,6 @@ let numUsers = 0;
 // the ws parameter in the callback.
 wss.on('connection', (ws) => {
   numUsers++;
-  console.log(numUsers);
-
 
   console.log('Client connected');
 
